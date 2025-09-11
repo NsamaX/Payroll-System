@@ -1,0 +1,9 @@
+/* สไตล์ของปุ่มที่มีคลาส 'sort-btn' */
+.sort-btn {
+    border: none;
+    background-color: transparent;
+}
+/* กำหนดความสูงขั้นต่ำสำหรับเนื้อหาในตาราง th และ td */
+th, td {
+    min-height: 70px;
+}

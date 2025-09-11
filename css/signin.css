@@ -1,0 +1,98 @@
+/* ตั้งค่าค่าเริ่มต้นให้กับ margin, padding, และ box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+/* สไตล์ของ body */
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* สไตล์ของ form */
+form {
+    padding: 20px 20px 30px 20px;
+    width: 240px;
+}
+/* สไตล์ของหัวข้อ h1 */
+h1 {
+    text-align: center;
+}
+/* สไตล์ของย่อหน้า p */
+p {
+    padding-top: 10px;
+}
+/* สไตล์ของช่องป้อนข้อความ และ ช่องป้อนรหัสผ่าน รวมถึงปุ่ม */
+input[type="text"],
+input[type="password"], 
+button {
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+/* สไตล์ของ placeholder ในช่องป้อนข้อความและรหัสผ่าน */
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+/* สไตล์พื้นหลังสำหรับช่องป้อนข้อความ */
+input {
+    background: none;
+}
+/* สไตล์ของคอนเทนเนอร์ที่มีช่องป้อนข้อความอยู่ข้างใน */
+.input-container {
+    margin-bottom: 10px;
+    position: relative;
+}
+/* สไตล์ของไอคอนที่อยู่ภายในคอนเทนเนอร์ของช่องป้อนข้อความ */
+.input-container ion-icon {
+    position: absolute;
+    left: 8px;
+    top: 60%;
+    transform: translateY(-50%);
+}
+/* การเพิ่ม padding ของช่องป้อนข้อความและรหัสผ่าน */
+input[type="text"],
+input[type="password"] {
+    padding-left: 30px;
+}
+/* สไตล์สำหรับส่วน 'ลืมรหัสผ่าน' */
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+}
+/* สไตล์ของช่องเลือกในส่วน 'ลืมรหัสผ่าน' */
+.forgot input[type="checkbox"] {
+    margin-right: 5px;
+    font-size: inherit;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+/* สไตล์ของป้ายในส่วน 'ลืมรหัสผ่าน' */
+.forgot label {
+    font-size: inherit;
+}
+/* สไตล์ของปุ่ม */
+button {
+    padding: 0 10px 0 10px;
+    height: 30px;
+    background-color: white;
+    color: royalblue;
+}
+/* สไตล์ของปุ่มเมื่อโฮเวอร์ */
+button:hover {
+    background-color: royalblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
