@@ -2,10 +2,6 @@
 
 A web-based payroll management system for calculating employee salaries, taxes, and welfare deductions, with e-slip generation and financial report export.
 
-## Tech Stack
-
-`PHP` `MySQL` `JavaScript` `XAMPP`
-
 ## Screenshots
 
 ![Screenshot](payroll.png)
